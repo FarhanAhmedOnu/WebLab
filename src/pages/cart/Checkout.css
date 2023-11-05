@@ -1,0 +1,74 @@
+.checkout-container {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.checkout-header h1 {
+  font-size: 24px;
+}
+
+.checkout-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-summary, .payment-details {
+  width: 48%;
+  padding: 10px;
+}
+
+.order-summary h2, .payment-details h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.order-summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-summary ul li {
+  margin: 5px 0;
+}
+
+.payment-details label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.payment-details input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-expiry, .card-cvv {
+  width: 48%;
+}
+
+buttontt {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
